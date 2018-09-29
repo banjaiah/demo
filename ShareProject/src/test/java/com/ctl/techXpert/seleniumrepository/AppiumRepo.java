@@ -74,7 +74,6 @@ public class AppiumRepo {
 	public static WebDriver proxySetting()
 	{
 		String serverIP=PropertyFileRead.FileRead("DBDetail.properties","proxyHort"); 
-	System.out.println("Testing");
 		String port= PropertyFileRead.FileRead("DBDetail.properties","proxyPort");
 		WebDriver newDriver;
 		FirefoxProfile profile = new FirefoxProfile();  
