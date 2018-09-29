@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;features&#x2F;Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Login Feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Testing Login functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on login page (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User should see an input field for mobile id (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User should be able enter text in the mobile id field (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User should see an input field for password (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User should be able enter text in the password field (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Login button also should be displayed (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Help text also should be displayed (undefined)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test runner" duration-ms="578" started-at="2018-06-21T11:17:18Z" finished-at="2018-06-21T11:17:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.ctl.techXpert.Runners.TestingFeatureRunner@29ca901e]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Package with subpackages" duration-ms="578" started-at="2018-06-21T11:17:18Z" finished-at="2018-06-21T11:17:18Z">
+      <class name="com.ctl.techXpert.Runners.TestingFeatureRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.ctl.techXpert.Runners.TestingFeatureRunner@29ca901e]" name="run_cukes" duration-ms="547" started-at="2018-06-21T16:47:18Z" description="Runs Cucumber Features" finished-at="2018-06-21T16:47:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;features&#x2F;Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Login Feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Testing Login functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on login page (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User should see an input field for mobile id (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User should be able enter text in the mobile id field (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User should see an input field for password (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User should be able enter text in the password field (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Login button also should be displayed (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Help text also should be displayed (undefined)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- com.ctl.techXpert.Runners.TestingFeatureRunner -->
+    </test> <!-- Package with subpackages -->
+  </suite> <!-- Test runner -->
+</testng-results>
