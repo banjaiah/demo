@@ -35,6 +35,7 @@ import io.appium.java_client.android.AndroidDriver;
 public class AppiumRepo {
 
 	public static WebElement webelement;
+	public static WebElement webelement1;
 	public static List<WebElement> webelements = null;
 	public static WebDriver driver = null;
 	public static int defaultBrowserTimeOut = 30;
