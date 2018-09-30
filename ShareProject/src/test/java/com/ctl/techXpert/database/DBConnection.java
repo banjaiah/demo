@@ -24,6 +24,7 @@ public class DBConnection {
 		Connection conyhyn = null;
 
 		ResultSet res = null;
+		ResultSet res = null;
 		List<HashMap<String, String>> rows = new ArrayList<HashMap<String,String>>(); 
 
 		try {
