@@ -24,6 +24,7 @@ public class DBConnection {
 		Connection conyhyn = null;
 
 		ram raj won
+		nagi remains the same
 		ResultSet res = null;
 		List<HashMap<String, String>> rows = new ArrayList<HashMap<String,String>>(); 
 
