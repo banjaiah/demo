@@ -21,6 +21,8 @@ public class DBConnection {
 	public static List<HashMap<String, String>> getMultipleResultsAsList(String query) {
 		Statement statement = null;
 		Connection conn = null;
+		Connection conyhyn = null;
+
 		ResultSet res = null;
 		List<HashMap<String, String>> rows = new ArrayList<HashMap<String,String>>(); 
 
